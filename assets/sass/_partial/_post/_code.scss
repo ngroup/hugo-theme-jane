@@ -4,15 +4,17 @@
 
 // normal <code> style
 code {
-  padding: 3px 7px;
-  background: $code-background;
+  padding: 0.5rem 0.5rem;
   border-radius: 4px;
-  color: $code-color;
 }
 
 code, pre {
   font-size: $code-font-size;
   font-family: $code-font-family;
+}
+
+p code {
+    background: #f0f0f0;
 }
 
 

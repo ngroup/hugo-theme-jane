@@ -67,12 +67,14 @@
   }
 
   .read-more {
-    text-align: right;
+    text-align: left;
 
     .read-more-link {
-      color: $theme-color;
-      font-size: 1.1em;
+      //color: $theme-color;
+      color: #555;
+      font-size: 1rem;
       font-family: $global-serif-font-family;
+      border-bottom: $post-readMore-border-bottom;
 
       &:hover {
         border-bottom: $post-readMore-border-bottom;

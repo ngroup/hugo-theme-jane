@@ -1,8 +1,8 @@
 .post-header {
   margin-bottom: 20px;
-  text-align: center;
+  
   padding-bottom: 10px;
-  border-bottom: 2px LightGrey solid;
+  //border-bottom: 2px LightGrey solid;
 
   .post-title {
     margin: 0;
@@ -55,4 +55,14 @@
     }
 
   }
+}
+
+
+.post-header-center {
+    text-align: center;
+    .post-title {
+        font-size: 1.8rem;
+        font-weight: 600;
+        font-family: "Spectral", Georgia, Cambria, "Times New Roman", Times, serif;
+    }
 }

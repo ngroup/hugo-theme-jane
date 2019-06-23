@@ -5,11 +5,33 @@
 .logo-wrapper {
   float: left;
   padding-left: 15px;
+  padding-top: 0px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 
   .logo {
     font-size: $logo-font-size;
     font-family: $logo-font-family;
+    line-height: 1.6rem;
+    font-weight: 700;
   }
+  .logo-line-before,
+  .logo-line-after {
+      overflow: hidden;
+      margin: 0 auto;
+      width: 75%;
+
+      //+mobile() { display: none; }
+
+      i {
+          display: block;
+          position: relative;
+          height: 2px;
+          background: #222;
+      }
+  }
+
+
 }
 
 @include max-screen() {
